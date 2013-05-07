@@ -1,0 +1,17 @@
+{
+  "name": "budget",
+  "version": "0.1.0",
+  "description": "simple personal finance app",
+  "main": "b.js",
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "pegjs": "~0.7.0"
+  },
+  "devDependencies": {},
+  "repository": "",
+  "author": "Honza Pokorny",
+  "license": "BSD",
+  "bin": {
+      "budget": "./b.js"
+   }
+}
