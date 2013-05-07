@@ -30,6 +30,14 @@ TODO
 * Show all items under/over a certain amount
 * ASCII spending graph over time
 
+How it works
+------------
+
+This started as a learning project.  The `.b` file parsing is implemented using
+a PEG parser, pegjs.  You can see the grammar in `budget.pegjs`.  This grammar
+is then compiled to Javascript.  The parser produces a simple AST which is then
+parsed by the `b.js` file.
+
 License
 -------
 
